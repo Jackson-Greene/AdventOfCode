@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ESNEXT",
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"watch": true
+	},
+	"exclude": [
+		"template/*"
+	]
+}
