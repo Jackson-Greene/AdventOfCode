@@ -1,5 +1,8 @@
-console.log("hello");
-
 export function getSolution(input) {
-  console.log("test");
+  let numLeftBrackets = input.split("(").length - 1;
+  //let numLeftBrackets = (input.match(/\(/g) || []).length;
+  let numRightBrackets = input.length - numLeftBrackets;
+  let floor = numLeftBrackets - numRightBrackets;
+
+  return floor;
 }
